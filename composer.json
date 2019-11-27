@@ -1,0 +1,35 @@
+{
+    "name": "popphp/popphp-tutorial",
+    "description": "Tutorial Application for Pop PHP Framework",
+    "keywords": [
+        "tutorial",
+        "application",
+        "framework",
+        "php framework",
+        "pop",
+        "pop php"
+    ],
+    "homepage": "http://www.popphp.org/",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nick Sagona",
+            "email": "dev@nolainteractive.com",
+            "homepage": "http://www.nolainteractive.com/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "popphp/popphp": "^3.3.1",
+        "popphp/pop-console": "^3.1.0",
+        "popphp/pop-db": "^4.5.5",
+        "popphp/pop-form": "^3.5",
+        "popphp/pop-http": "^3.2.2",
+        "popphp/pop-kettle": "^1.0.1",
+        "popphp/pop-session": "^3.1.4",
+        "popphp/pop-view": "^3.1.0"
+    },
+    "autoload": {
+        "psr-4": {"Tutorial\\": "app/src/"}
+    }
+}

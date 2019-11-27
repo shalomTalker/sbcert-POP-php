@@ -1,0 +1,11 @@
+    <div class="col-sm-12 col-md-6">
+        <?php if ($reserved): ?>
+            <div class="error">
+                <h1>Error</h1>
+                <p><strong>something wrong... please go to <a href="/admin">'/admin'</a> </strong></p>
+            </div>
+            <?php else: ?>
+                <h1><?=$title; ?></h1>
+                <?=$form;?>
+        <?php endif; ?>
+    </div>

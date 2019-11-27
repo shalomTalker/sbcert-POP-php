@@ -1,0 +1,13 @@
+<div>
+    <h1><?=$title; ?></h1>
+    <div class="col-sm-12 col-md-6">
+        <div><?=$form;?></div>
+    </div>
+</div>
+<?php if ($token): ?>
+    <div class="col-sm-12 col-md-6">
+        <p>pleage navigate to registration page for complete procces:
+            <a href="/register/?token=<?=$token;?>">/register/?token=<?=$token;?></a>
+        </p>
+    </div>
+<?php endif; ?>
